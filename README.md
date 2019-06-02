@@ -4,9 +4,7 @@
 
 The website allows users to sign up and pay for a subscription to a weekly delivery of meals. A shopping cart is used to allow users to choose meals from a menu for each day of the week.  
 
-The service is similar to  https://catering.maidan.hk/#/home
-
-The restaurant and will be selling thier own food, not other restaurants food.
+The home cook will be selling thier own food, not other restaurants food.
 
 Users choose how many days they want meals for, then choose the meals. 
 
