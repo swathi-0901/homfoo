@@ -1,4 +1,4 @@
-#An Online Food Delivery System in Rails
+#An Online Food Delivery System in Rails for home makers
 
 ###Here's what the app is supposed to do
 
