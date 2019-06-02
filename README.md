@@ -1,6 +1,6 @@
 *An Online Food Delivery System in Rails for home makers*
 
-**###Here's what the app is supposed to do**
+**Here's what the app is supposed to do**
 
 The website allows users to sign up and pay for a subscription to a weekly delivery of meals. A shopping cart is used to allow users to choose meals from a menu for each day of the week.
 The home cook will be selling thier own food, not other restaurants food.
@@ -16,14 +16,14 @@ These are the steps we want to create:
 
 We will also require a backend system where we can manage the orders and also manage the register. 
 
-#Purpose:
+**Purpose:**
 
 Empower and provide viable income options to people who are homemakers. 
 Show the passion of cooking and delivering yummy, healthy & Fresh food. 
 Provide homemade food to the students/bachelors staying away from home for education .
 Benefit for home-makers and the student.
 
-#App WorkFlow:
+**App WorkFlow:**
 
 Home-cook and the customer register in the app.(store in the database managed by HASURA )
 The home-cook will provide food menu for the whole week including below details:
@@ -45,13 +45,13 @@ Payment cleared message notification will be sent to the individuals.
 Receipt sent from Biller to the user.
 
 
-#API USAGE:
+**API USAGE:**
 
  Hasura API for  storing data (menu etc.) in the database along with the backend functionality 
 
 SETU API for doing the payment to the billers .
 
-#Main focused areas:
+Main focused areas:
 
 We mainly aim to provide the tasty and healthy food.
 
