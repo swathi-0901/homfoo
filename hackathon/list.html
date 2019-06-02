@@ -1,0 +1,25 @@
+<!Document>
+
+<html>
+  
+   <link rel="stylesheet" type="text/css" href="css/s_list.css" >
+    <head>
+    <title>HOMFOO</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+       <header>
+       <h1>HOMFOO</h1>
+       </header>
+       <div>COOKS DELIVERING AT YOUR PLACE</div>
+       <div id=menu>
+       </div>
+     <script>
+$.post("https://homfu.herokuapp.com/v1/graphql",JSON.stringify({query:"{cooks { name id }}"}),(data)=>{
+    console.log(data)
+    data.data.cooks.forEach((cook)=>{
+    $("#menu").append(` <a href="menu.html" >${cook.name}</a><br> `)})})
+
+        </script>
+    </body>
+</html>

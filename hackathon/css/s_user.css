@@ -1,0 +1,31 @@
+header{
+   background-color:darkgrey;
+    height: 150
+}
+h1{
+    text-align: center;
+    padding-top: 50;
+    color: black;
+}
+label{
+    padding-top: 30;
+    font-size: 15;
+        
+}
+input{
+    float: right;
+    vertical-align: middle;
+    font-size: 25
+}
+fieldset{
+    height: 400;
+    margin-top: 100; 
+    
+}
+legend{
+    font-size: 35;
+}
+button{
+    background-size: 30;
+    font-size: 20;   
+}

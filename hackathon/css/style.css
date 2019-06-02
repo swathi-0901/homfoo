@@ -1,0 +1,39 @@
+header{
+   background-color:darkgrey;
+    height: 150
+}
+h1{
+    text-align: center;
+    padding-top: 50;
+}
+ul{
+    list-style-type: none;
+    font-family: sans-serif; 
+    align-content: center;
+    text-align:center;
+   
+    margin-top: 250;
+}
+ul li{
+    font-size: 30;
+     height:50;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    width: 160;
+    padding: 5px 20px;
+    border:1px solid gainsboro;
+    
+}
+ul li a:hover{
+    color: white;
+    background-color:gainsboro;
+    border:1px solid #fff;   
+}
+body{
+   background-image: url(../6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
