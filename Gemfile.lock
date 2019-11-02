@@ -52,7 +52,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.10.1)
     polyglot (0.3.5)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.0.4)
@@ -107,9 +107,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (= 1.6.9)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  json (~> 1.8.1)
   rails (= 4.0.4)
   sass-rails (~> 4.0.2)
   sdoc
