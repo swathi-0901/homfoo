@@ -98,7 +98,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.2.2)
       coffee-rails
-    tzinfo (0.3.40)
+    tzinfo (0.3.61)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -107,9 +107,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (= 1.6.9)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  json (~> 1.8.1)
   rails (= 4.0.4)
   sass-rails (~> 4.0.2)
   sdoc
